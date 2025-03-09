@@ -1,0 +1,104 @@
+@import url("/CSS/globalStyles.css");
+
+body {
+   height: 100vh;
+   /*Toda la altura de la ventana*/
+
+   /* En un gradiente radial, el color se distribuye 
+   en círculos (o elipses), comenzando desde un punto
+    central y expandiéndose hacia afuera. Si quieres 
+    que el color se mantenga en los extremos y se haga
+     más claro hacia el centro, usarás un gradiente
+      radial con ese color en el borde exterior y 
+      luego un color más claro o transparente en el 
+      centro. */
+   background:
+      radial-gradient(circle, rgba(15, 18, 37, 0.9) 0%,
+         rgba(15, 18, 37, 1)100%);
+   /*El gradiente ira de izquierda a derecha, ya que el 
+angulo es 0deg*/
+   color: white;
+}
+
+
+
+
+.header {
+   width: 100%;
+   height: auto;
+   margin-top: 3rem;
+}
+
+.nav-bar {
+   width: 10%;
+   left: 50%;/*Ajustar la posicion horizontalmente*/ 
+   display: flex;
+   transform: translateX(-50%); /*Ajustar la posicion */ 
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: .5rem;
+   padding: 1rem;
+   background-color: rgba(48,54,79,1);
+   gap: 2rem;
+   border-radius: 5rem;
+   z-index: 100;
+}
+@media(min-width: 0px) and (max-width:768px){
+   .nav-bar{
+    justify-content: center;
+      width: 20%;
+   }
+}
+
+
+.nav-bar a {
+   text-decoration: none;
+   color: white;
+   font-size: 2rem;
+}
+
+.nav-bar a:hover {
+   color: #f9d214;
+   transition: all 0.5s ease;
+}
+
+.nav-bar a:hover {
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5), -10px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.nav-bar i {
+   font-size: 2rem;
+}
+
+
+
+
+
+
+/*section-1*/
+.section-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+
+.section-1 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.section-1 li{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+
+}
+.section-1 a{
+    text-decoration: none;
+    color:white;
+}
