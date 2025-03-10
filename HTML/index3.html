@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--  Usar Font Awesome (Recomendado)
+Font Awesome es una de las bibliotecas de iconos más
+ populares y fáciles de usar. Te permite agregar
+  iconos con solo un poco de HTML y CSS.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <!-- Incluyendo Font Awesome desde CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Alejandro Cannizzaro </title>
+</head>
+<!-- Usar de referencia las propiededades de flex:
+ Galery MaqWeb #8 es el apunte, 
+ TP Galery Clase #8  es el proyecto de visual de referencia-->
+
+<body>
+    <header class="header">
+        <div class="div-nav-bar">
+            <nav-bar class="nav-bar">
+                <a href="">Home</a>
+                <a href="#work-experience-section">Experience</a>
+                <a href="#project-section">Projects</a>
+                <a href="#about-me">About me
+                    <a href="/HTML/index2.html">Contact</a>
+                    <i class="fa fa-laptop"></i>
+                    <!-- icono de una compu-->
+            </nav-bar>
+        </div>
+
+
+
+        <!-- <div class="traductions-flags">
+            <a href="#" onclick="translatePage('en')">
+                <img src="https://flagcdn.com/w40/gb.png" alt="English" width="20">
+                English
+            </a>
+            <a href="#" onclick="translatePage('es')">
+                <img src="https://flagcdn.com/w40/es.png" alt="Español" width="20">
+                Spanish
+            </a>
+        </div> -->
+    </header>
+
+    <section id="profesional-presentation-section">
+        <div class="div-1">
+            <!-- Imagen mia redonda-->
+            <img class="img-1" src="/Multimedia/MeLinkedIn.jpeg" alt="">
+            <!-- Esto es como un input al lado con border-radius-->
+            <p>Open to work</p>
+        </div>
+        <div class="div-2">
+            <h2>Hey! I'm Alejandro!</h2>
+            <p><span class="span">
+                    University Technician in Programming from <span class="span-1">Mar del Plata</span>, <span
+                        class="span-1">Argentina</span>, with solid knowledge in <span class="span-1">Backend</span> and
+                    <span class="span-1">Frontend</span>. Proficient in <span class="span-1">Java, JavaScript, and
+                        C</span>, along with frameworks like <span class="span-1">Spring and Angular</span>.
+                    Knowledgeable in <span class="span-1">MySQL, HTML, and CSS</span>.
+                </span>
+            </p>
+        </div>
+        <div class="div-3">
+            <!-- Enlace a un email 
+              y hay que meter icono de un mail -->
+            <a href="https://www.linkedin.com/in/alejandro-cannizzaro-38226a231/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            <!-- Icono de linkedin y que el enlace derive a linkedin-->
+            <a href="mailto:alejandrocannizzaro@gmail.com">
+                <i class="fa-solid fa-envelope"></i> Contact me</a>
+        </div>
+    </section>
+
+    <section id="work-experience-section">
+        <div class="div-4">
+            <i class="fa-solid fa-briefcase"></i><!-- Icono de portafolio-->
+            <h2>
+                Work Experience</h2>
+        </div>
+
+        <div class="div-5">
+            <div class="sub-div-5-1">
+                <div class="circle"></div>
+                <h3><span class="span-3">Data Entry Specialist</span> </h3>
+                <h4><strong>Veeva Systems</strong></h4>
+                <p><span class="span-5">Septiembre 2024 - Present</span> </p>
+            </div>
+            <div class="sub-div-5-2">
+                <h4>🔹 <strong>Tasks</strong></h4>
+                <ul>
+                    <li>
+                        <p><span class="span-p">Responsible for data entry and validation in internal systems, ensuring accuracy, organization, and process optimization. Proficient in database management and digital tools for efficient information structuring.</span></p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="div-6">
+            <div class="sub-div-6-1">
+                <div class="circle"></div>
+                <h3><span class="span-3">Development Projects</span></h3>
+                <p><span class="span-p2">During my studies at the National Technological University, I developed various backend and frontend projects.</span></p>
+                <p><span class="span-5">March 2022 - Present</span></p>
+            </div>
+        
+            <div class="sub-div-6-2">
+                <h4>🔹<strong>Backend</strong></h4>
+                <ul>
+                    <li>
+                        <p><span class="span-p"><strong>REST API in Java with Spring Boot and MySQL:</strong> Developed an API for user management with JWT authentication.</span></p>
+                    </li>
+                    <li>
+                        <p><span class="span-p"><strong>CRUD System in C:</strong> Console application for record management with file handling.</span></p>
+                    </li>
+                </ul>
+        
+                <h4>🔹<strong>Frontend</strong></h4>
+                <ul>
+                    <li>
+                        <p><span class="span-p"><strong>Web application with Angular:</strong> Dynamic interface connected to a REST API, implementing services and routes.</span></p>
+                    </li>
+                    <li>
+                        <p><strong>Personal Portfolio:</strong> Responsive website developed with HTML, CSS, and JavaScript.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="project-section">
+        <div class="project-section-h2">
+            <h2><i class="fa-solid fa-code"></i>
+                <h2>Projects</h2>
+            </div>
+            
+            <div class="div-7">
+                <div class="div-7-container-img">
+                    <img src="/Multimedia/image2.png" alt="">
+                </div>
+                <div class="div-7-1">
+                    <h2>Basic Cinema Management</h2>
+            
+                    <p><i class="fa-brands fa-java"></i> Java and Java Swing</p>
+            
+                    <p><strong>CineApp - Cinema Ticket Management 🎟️🎬</strong><br>
+                        CineApp is a desktop application developed in Java with Swing, allowing users to easily purchase and manage movie tickets.</p>
+            
+                    <div class="code-preview-div">
+                        <a href="https://github.com/AlejandroCannizzaro1/JAVA-TP-Final-Cuatrimestre-3.git" target="_blank">
+                            <i class="fa-brands fa-github"></i> Code</a>
+                        <a href="https://github.com/AlejandroCannizzaro1/Java.jar" target="_blank">
+                            <i class="fa-solid fa-link"></i> Preview</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="div-8">
+                <div class="div-8-container-img">
+                    <img src="/Multimedia/image.png" alt="">
+                </div>
+                <div class="div-8-1">
+                    <h2>Meal API Project</h2>
+                    <div class="div-8-icons">
+                        <p><i class="fa-brands fa-angular"></i> Angular</p>
+                    </div>
+            
+                    <p class="meal-api-p"><strong>MealAPI - Recipe Management 🍽️👨‍🍳</strong><br>
+                        Web application built with Angular that allows users to search, create, and manage recipes using the Meal API.
+                        It includes two user types: regular and premium, with exclusive features.<br>
+                        Developed with Angular, TypeScript, CSS, and JSON, offering an interactive and dynamic experience.
+                    </p>
+            
+                    <div class="code-preview-div">
+                        <a href="https://github.com/AlejandroCannizzaro1/TP-Final-Meal-Api.git" target="_blank">
+                            <i class="fa-brands fa-github"></i> Code</a>
+                        <a href="https://mealmaster1.netlify.app/" target="_blank">
+                            <i class="fa-solid fa-link"></i> Preview</a>
+                    </div>
+                </div>
+            </div>
+            <section id="about-me">
+                <div class="container-about-me">
+                    <div class="div-9">
+                        <h2><i class="fa-regular fa-user-circle"></i> About Me</h2>
+                        <p> I am a University Technician in Programming, graduated from the National Technological University of Mar del Plata. 
+                            I specialize in web application development, focusing on code optimization and efficient solutions.
+                            <br><br>
+                            I am interested in both frontend and backend development, though I particularly enjoy designing robust and scalable architectures. 
+                            Additionally, I have a strong command of English, allowing me to work in global environments and collaborate on international projects.
+                            <br><br>
+                            I am constantly learning, always exploring new technologies and methodologies to enhance my skills and add value to every development.
+                        </p>
+                    </div>
+                    <div class="div-10">
+                        <!-- My photo -->
+                        <img src="/Multimedia/me2.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+    <footer id="footer">
+        <div class="footer-div-p">
+            <p><i class="fa-regular fa-copyright"></i>
+                2025 All rights reserved Cannizzaro Alejandro</p>
+        </div>
+        <div class="footer-div-a">
+            <a href="/HTML/index4.html">Contact </a>
+        </div>
+    </footer>
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>

@@ -60,6 +60,8 @@ angulo es 0deg*/
    width: 100%;
    height: auto;
    margin: 0 auto;
+   display: flex;
+   
 }
 
 .div-nav-bar {
@@ -148,6 +150,20 @@ angulo es 0deg*/
    font-size: 2rem;
 }
 
+.traductions-flags{
+display: flex;
+gap: 1rem;
+padding: 1rem;
+}
+.traductions-flags a {
+text-decoration: none;
+color:white;
+font-weight: 200;
+font-size: 1rem;
+display: flex;
+align-items: center;
+gap: .5rem;
+}
 
 
 
