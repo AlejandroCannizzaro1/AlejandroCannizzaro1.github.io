@@ -996,9 +996,23 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
 
 
 .footer-div-a {
+   width: 35%;
    display: flex;
+   justify-content: start;
    gap: 2rem;
    text-decoration: none;
+}
+
+@media (max-width: 376px) {
+   .footer-div-a {
+      justify-content: end;
+   }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+   .footer-div-a {
+      justify-content: end;
+   }
 }
 
 
@@ -1009,6 +1023,8 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
    text-decoration: none;
    color: white;
    margin-top: 1rem;
+
+
 }
 
 .footer-div-a a:hover {
