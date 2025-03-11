@@ -30,7 +30,7 @@ angulo es 0deg*/
 }
 
 .nav-bar {
-   width: 10%;
+   width: 20%;
    left: 50%;
    /*Ajustar la posicion horizontalmente*/
    display: flex;
@@ -59,6 +59,19 @@ angulo es 0deg*/
       width: 50%;
    }
 }
+
+@media (min-width: 601px) and (max-width: 769px) {
+   .nav-bar {
+      width: 40%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .nav-bar {
+      width: 40%;
+   }
+}
+
 
 
 .nav-bar a {

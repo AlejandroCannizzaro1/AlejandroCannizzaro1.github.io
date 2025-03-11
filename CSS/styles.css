@@ -6,12 +6,12 @@
 }
 
 /* Estilos para pantallas de tabletas y laptops pequeñas (tabletas en modo horizontal, laptops de menor tamaño) */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 770px) and (max-width: 1023px) {
    /* Estilos aquí */
 }
 
 /* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
-@media (min-width: 601px) and (max-width: 767px) {
+@media (min-width: 601px) and (max-width: 769px) {
    /* Estilos aquí */
 }
 
@@ -61,7 +61,7 @@ angulo es 0deg*/
    height: auto;
    margin: 0 auto;
    display: flex;
-   
+
 }
 
 .div-nav-bar {
@@ -81,6 +81,20 @@ angulo es 0deg*/
 @media (min-width: 376px) and (max-width: 480px) {
    .div-nav-bar {
       width: 100%;
+   }
+}
+
+
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-nav-bar {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-nav-bar {
+      width: 80%;
    }
 }
 
@@ -114,6 +128,18 @@ angulo es 0deg*/
 
    }
 }
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .nav-bar {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .nav-bar {
+      width: 80%;
+   }
+}
 
 
 .nav-bar a {
@@ -133,6 +159,17 @@ angulo es 0deg*/
    .nav-bar a {
       font-size: 1.2rem;
    }
+}
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .nav-bar a {
+      font-size: 1.5rem;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .nav-bar {
+font-size: 1.8rem;   }
 }
 
 
@@ -171,6 +208,19 @@ angulo es 0deg*/
       width: 100%;
    }
 }
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   #profesional-presentation-section {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   #profesional-presentation-section {
+      width: 80%;
+   }
+}
+
 
 
 #profesional-presentation-section a {
@@ -228,6 +278,20 @@ angulo es 0deg*/
       width: 40%;
    }
 }
+
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-1 p {
+      width: 25%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-1 p {
+      width: 25%;
+   }
+}
+
 
 
 
@@ -330,6 +394,19 @@ angulo es 0deg*/
       margin: 0 auto;
    }
 }
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-3 a {
+      width: 25%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-3 a {
+      width: 25%;
+   }
+}
+
 
 
 .div-3 a:hover {
@@ -398,6 +475,24 @@ angulo es 0deg*/
       padding: .5rem;
    }
 }
+/* Estilos para pantallas de tabletas en modo vertical o móviles grandes */
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-4,
+   .div-5,
+   .div-6 {
+      width: 80%;
+   
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-4,
+   .div-5,
+   .div-6 {
+      width: 80%;
+   }
+}
+
 
 
 .div-4 {
@@ -635,6 +730,23 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
 
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   #work-experience-section::before {
+      height: 51rem;
+      margin-left: 4rem;
+      margin-top: 10.5rem;
+
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   #work-experience-section::before {
+      height: 50rem;
+      margin-left: 5rem;
+      margin-top: 10.2rem;
+
+   }
+}
 
 
 
@@ -665,7 +777,21 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       height: 14px;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   #work-experience-section h3::before {
+      left: 3.3rem;
+      width: 15px;
+      height: 15px;
+   }
+}
 
+@media (min-width: 770px) and (max-width: 1023px) {
+   #work-experience-section h3::before {
+      left: 4.3rem;
+      width: 15px;
+      height: 15px;
+   }
+}
 
 
 /*Section Project*/
@@ -703,6 +829,17 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
 
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .project-section-h2 {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .project-section-h2 {
+      width: 80%;
+   }
+}
 
 #project-section a {
    text-decoration: none;
@@ -734,10 +871,20 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
    .div-7 {
       flex-direction: column;
       width: 85%;
-
-
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-7 {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-7 {
+      width: 80%;
+   }
+}
+
 
 
 
@@ -771,8 +918,17 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
    .div-8 {
       flex-direction: column;
       width: 85%;
+   }
+}
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-8 {
+      width: 80%;
+   }
+}
 
-
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-8 {
+      width: 80%;
    }
 }
 
@@ -835,6 +991,17 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       width: 30%;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .code-preview-div a {
+      width: 30%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .code-preview-div a {
+      width: 30%;
+   }
+}
 
 .code-preview-div a:hover {
    background: linear-gradient(90deg, rgba(15, 18, 37, 0.9), rgba(80, 90, 120, 0.9));
@@ -877,6 +1044,18 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
 
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .container-about-me {
+      width: 80%;
+
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .container-about-me {
+      width: 80%;
+   }
+}
 
 .div-9 {
    flex: 4;
@@ -904,6 +1083,17 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       font-size: 3rem;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-9 h2 {
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-9 h2 {
+      width: 80%;
+   }
+}
 
 
 .div-9 p {
@@ -913,12 +1103,32 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
    font-weight: 300;
    color: white;
    font-family: 'Poppins', sans-serif;
+}
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-9 p {
+font-size: 1.5rem;   }
+}
 
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-9 p {
+      font-size: 1.5rem;   
+   }
 }
 
 
 .div-10 {
    flex: 3;
+}
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-10 {
+   flex:2;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-10 {
+      flex:2;
+      }
 }
 
 
@@ -948,6 +1158,20 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
 
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .div-10 img{
+      margin-top: 12rem;
+      margin-left: 3rem;
+      }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .div-10 img{
+      margin-top: 10rem;
+      margin-left: 3rem;
+      }
+}
+
 
 
 /*footer*/
@@ -971,6 +1195,18 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       width: 85%;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   #footer {
+      width: 80%;
+      
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   #footer {
+      width: 80%;
+   }
+}
 
 .footer-div-p {
    width: 60%;
@@ -989,9 +1225,32 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       width: 65%;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .footer-div-p{
+      width: 80%;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .footer-div-p {
+      width: 80%;
+   }
+}
 
 .footer-div-p p {
    font-size: .9rem;
+}
+@media (min-width: 601px) and (max-width: 769px) {
+   .footer-div-p p{
+     font-size: 1.5rem;
+
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .footer-div-p p{
+      font-size: 1.5rem;
+   }
 }
 
 
@@ -1014,6 +1273,18 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
       justify-content: end;
    }
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .footer-div-a {
+      width: 20%;
+
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .footer-div-a {
+      width: 20%;
+   }
+}
 
 
 
@@ -1023,9 +1294,22 @@ de los sub-div-5-1 (Tiempo que trabaje)*/
    text-decoration: none;
    color: white;
    margin-top: 1rem;
-
-
 }
+@media (min-width: 601px) and (max-width: 769px) {
+   .footer-div-a a{
+     font-size: 1.5rem;
+     margin-top: 1.6rem;
+   }
+}
+
+@media (min-width: 770px) and (max-width: 1023px) {
+   .footer-div-a a{
+      font-size: 1.5rem;
+      margin-top: 1.4rem;
+
+   }
+}
+
 
 .footer-div-a a:hover {
    font-size: 1.2rem;
