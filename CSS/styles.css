@@ -353,10 +353,14 @@ font-size: 1.8rem;   }
 
 .span-1 {
    font-weight: 600;
+   padding: .5rem;
+   color: rgba(247, 246, 167, 1);
+
 }
 
 .span {
    color: rgba(247, 246, 167, 1);
+   padding: .5rem;
 }
 
 .div-3 {
