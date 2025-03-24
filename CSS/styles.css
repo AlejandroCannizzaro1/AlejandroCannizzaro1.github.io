@@ -350,6 +350,10 @@ font-size: 1.8rem;   }
    }
 }
 
+.span {
+   color: rgba(247, 246, 167, 1);
+   padding: .5rem;
+}
 
 .span-1 {
    font-weight: 600;
@@ -357,9 +361,8 @@ font-size: 1.8rem;   }
    color: rgba(247, 246, 167, 1);
 
 }
-
-.span {
-   color: rgba(247, 246, 167, 1);
+.span-2{
+   color: white;
    padding: .5rem;
 }
 
